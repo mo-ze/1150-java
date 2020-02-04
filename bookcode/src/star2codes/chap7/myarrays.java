@@ -165,8 +165,6 @@ public class myarrays {
 
 
     }
-
-
     public static boolean checkitemsinArray(String[] arr){
 
         boolean dublicateitemsExists=true;
@@ -184,8 +182,6 @@ public class myarrays {
         }
         return dublicateitemsExists;
     }
-
-
         // userinput
     public static int[] userinputs(Scanner s,int n){
         int[] arr=new int[n];
@@ -310,4 +306,21 @@ public class myarrays {
 //  todo  cut down one  arrays to n arrays
 
 }
+
+public static int[] CharToIntArr(char[] arr){
+
+
+        int[] in= new int[arr.length];
+        for (int i = 0; i <arr.length ; i++) {
+
+            in[i]=Integer.parseInt(arr[i]+"");
+            System.out.println(in[i]);
+        }
+        return  in;
+
+    }
+
+
+
+
 
